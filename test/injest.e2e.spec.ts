@@ -1,7 +1,7 @@
 import * as request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { InjestModule } from './injest.module';
-import { InjestService } from './injest.service';
+import { InjestModule } from 'src/injest/injest.module';
+import { InjestService } from 'src/injest/injest.service';
 import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { EventsModule } from 'src/events/events.module';
 import { SocketIoAdapter } from 'src/adapters/socket-io.adapter';
