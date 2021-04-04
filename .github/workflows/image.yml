@@ -1,6 +1,5 @@
 name: image
 
-
 on:
   push:
     branches:
