@@ -1,0 +1,21 @@
+POST http://localhost:3000/injest HTTP/1.1
+content-type: application/json
+
+{
+    "name": "success_default",
+    "statusCode": 200,
+    "stdout": "fake stdout",
+    "stderr": "fake stderr"
+}
+
+###
+
+POST http://localhost:3000/injest HTTP/1.1
+content-type: application/json
+
+{
+    "name": "error_statuscode",
+    "statusCode": 201,
+    "stdout": "fake stdout",
+    "stderr": "fake stderr"
+}
